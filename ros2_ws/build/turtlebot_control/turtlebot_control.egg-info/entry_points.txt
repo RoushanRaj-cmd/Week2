@@ -1,0 +1,6 @@
+[console_scripts]
+constant_velocity = turtlebot_control.constant_velocity:main
+keyboard_control = turtlebot_control.keyboard_control:main
+move_to_goal = turtlebot_control.move_to_goal:main
+obstacle_avoidance = turtlebot_control.obstacle_avoidance:main
+

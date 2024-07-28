@@ -1,0 +1,49 @@
+[1.211s] Invoking command in '/home/roushan/ros2_ws/src/turtlebot_control': PYTHONPATH=/home/roushan/ros2_ws/build/turtlebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_control build --build-base /home/roushan/ros2_ws/build/turtlebot_control/build install --record /home/roushan/ros2_ws/build/turtlebot_control/install.log --single-version-externally-managed install_data
+[1.679s] running egg_info
+[1.681s] creating ../../build/turtlebot_control/turtlebot_control.egg-info
+[1.681s] writing ../../build/turtlebot_control/turtlebot_control.egg-info/PKG-INFO
+[1.682s] writing dependency_links to ../../build/turtlebot_control/turtlebot_control.egg-info/dependency_links.txt
+[1.682s] writing entry points to ../../build/turtlebot_control/turtlebot_control.egg-info/entry_points.txt
+[1.682s] writing requirements to ../../build/turtlebot_control/turtlebot_control.egg-info/requires.txt
+[1.683s] writing top-level names to ../../build/turtlebot_control/turtlebot_control.egg-info/top_level.txt
+[1.684s] writing manifest file '../../build/turtlebot_control/turtlebot_control.egg-info/SOURCES.txt'
+[1.688s] reading manifest file '../../build/turtlebot_control/turtlebot_control.egg-info/SOURCES.txt'
+[1.689s] writing manifest file '../../build/turtlebot_control/turtlebot_control.egg-info/SOURCES.txt'
+[1.698s] running build
+[1.698s] running build_py
+[1.699s] creating /home/roushan/ros2_ws/build/turtlebot_control/build
+[1.699s] creating /home/roushan/ros2_ws/build/turtlebot_control/build/lib
+[1.700s] creating /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control
+[1.700s] copying turtlebot_control/keyboard_control.py -> /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control
+[1.701s] copying turtlebot_control/move_to_goal.py -> /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control
+[1.701s] copying turtlebot_control/__init__.py -> /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control
+[1.701s] copying turtlebot_control/constant_velocity.py -> /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control
+[1.701s] copying turtlebot_control/obstacle_avoidance.py -> /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control
+[1.702s] running install
+[1.702s] running install_lib
+[1.703s] creating /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control
+[1.703s] copying /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control/keyboard_control.py -> /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control
+[1.704s] copying /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control/move_to_goal.py -> /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control
+[1.704s] copying /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control/__init__.py -> /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control
+[1.704s] copying /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control/constant_velocity.py -> /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control
+[1.705s] copying /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control/obstacle_avoidance.py -> /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control
+[1.705s] byte-compiling /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control/keyboard_control.py to keyboard_control.cpython-310.pyc
+[1.707s] byte-compiling /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control/move_to_goal.py to move_to_goal.cpython-310.pyc
+[1.708s] byte-compiling /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control/__init__.py to __init__.cpython-310.pyc
+[1.708s] byte-compiling /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control/constant_velocity.py to constant_velocity.cpython-310.pyc
+[1.709s] byte-compiling /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc
+[1.710s] running install_data
+[1.710s] creating /home/roushan/ros2_ws/install/turtlebot_control/share/ament_index
+[1.711s] creating /home/roushan/ros2_ws/install/turtlebot_control/share/ament_index/resource_index
+[1.711s] creating /home/roushan/ros2_ws/install/turtlebot_control/share/ament_index/resource_index/packages
+[1.711s] copying resource/turtlebot_control -> /home/roushan/ros2_ws/install/turtlebot_control/share/ament_index/resource_index/packages
+[1.712s] copying package.xml -> /home/roushan/ros2_ws/install/turtlebot_control/share/turtlebot_control
+[1.712s] running install_egg_info
+[1.715s] Copying ../../build/turtlebot_control/turtlebot_control.egg-info to /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control-0.0.0-py3.10.egg-info
+[1.717s] running install_scripts
+[1.759s] Installing constant_velocity script to /home/roushan/ros2_ws/install/turtlebot_control/lib/turtlebot_control
+[1.759s] Installing keyboard_control script to /home/roushan/ros2_ws/install/turtlebot_control/lib/turtlebot_control
+[1.760s] Installing move_to_goal script to /home/roushan/ros2_ws/install/turtlebot_control/lib/turtlebot_control
+[1.760s] Installing obstacle_avoidance script to /home/roushan/ros2_ws/install/turtlebot_control/lib/turtlebot_control
+[1.760s] writing list of installed files to '/home/roushan/ros2_ws/build/turtlebot_control/install.log'
+[1.824s] Invoked command in '/home/roushan/ros2_ws/src/turtlebot_control' returned '0': PYTHONPATH=/home/roushan/ros2_ws/build/turtlebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_control build --build-base /home/roushan/ros2_ws/build/turtlebot_control/build install --record /home/roushan/ros2_ws/build/turtlebot_control/install.log --single-version-externally-managed install_data

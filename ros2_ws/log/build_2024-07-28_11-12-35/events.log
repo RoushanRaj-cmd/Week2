@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000503] (turtlebot_control) JobQueued: {'identifier': 'turtlebot_control', 'dependencies': OrderedDict()}
+[0.000947] (turtlebot_control) JobStarted: {'identifier': 'turtlebot_control'}
+[0.099610] (-) TimerEvent: {}
+[0.200131] (-) TimerEvent: {}
+[0.300644] (-) TimerEvent: {}
+[0.401173] (-) TimerEvent: {}
+[0.501857] (-) TimerEvent: {}
+[0.602469] (-) TimerEvent: {}
+[0.703028] (-) TimerEvent: {}
+[0.803563] (-) TimerEvent: {}
+[0.904095] (-) TimerEvent: {}
+[1.004628] (-) TimerEvent: {}
+[1.105351] (-) TimerEvent: {}
+[1.206606] (turtlebot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot_control', 'build', '--build-base', '/home/roushan/ros2_ws/build/turtlebot_control/build', 'install', '--record', '/home/roushan/ros2_ws/build/turtlebot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/roushan/ros2_ws/src/turtlebot_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'roushan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/roushan', 'OLDPWD': '/home/roushan/ros2_ws/src/turtlebot_control/turtlebot_control', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2178', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/roushan/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'roushan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'roushan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dark-knight:@/tmp/.ICE-unix/2154,unix/dark-knight:/tmp/.ICE-unix/2154', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d5f181b8_13e0_4807_983b_367bc40f9353', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GLQKR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/roushan/ros2_ws/build/turtlebot_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roushan/ros2_ws/build/turtlebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.212540] (-) TimerEvent: {}
+[1.312942] (-) TimerEvent: {}
+[1.413762] (-) TimerEvent: {}
+[1.514341] (-) TimerEvent: {}
+[1.614956] (-) TimerEvent: {}
+[1.680591] (turtlebot_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.682068] (turtlebot_control) StdoutLine: {'line': b'creating ../../build/turtlebot_control/turtlebot_control.egg-info\n'}
+[1.682543] (turtlebot_control) StdoutLine: {'line': b'writing ../../build/turtlebot_control/turtlebot_control.egg-info/PKG-INFO\n'}
+[1.683054] (turtlebot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot_control/turtlebot_control.egg-info/dependency_links.txt\n'}
+[1.683408] (turtlebot_control) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot_control/turtlebot_control.egg-info/entry_points.txt\n'}
+[1.683819] (turtlebot_control) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot_control/turtlebot_control.egg-info/requires.txt\n'}
+[1.684139] (turtlebot_control) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot_control/turtlebot_control.egg-info/top_level.txt\n'}
+[1.684599] (turtlebot_control) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot_control/turtlebot_control.egg-info/SOURCES.txt'\n"}
+[1.689120] (turtlebot_control) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot_control/turtlebot_control.egg-info/SOURCES.txt'\n"}
+[1.690713] (turtlebot_control) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot_control/turtlebot_control.egg-info/SOURCES.txt'\n"}
+[1.699013] (turtlebot_control) StdoutLine: {'line': b'running build\n'}
+[1.699717] (turtlebot_control) StdoutLine: {'line': b'running build_py\n'}
+[1.700327] (turtlebot_control) StdoutLine: {'line': b'creating /home/roushan/ros2_ws/build/turtlebot_control/build\n'}
+[1.700718] (turtlebot_control) StdoutLine: {'line': b'creating /home/roushan/ros2_ws/build/turtlebot_control/build/lib\n'}
+[1.701076] (turtlebot_control) StdoutLine: {'line': b'creating /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control\n'}
+[1.701433] (turtlebot_control) StdoutLine: {'line': b'copying turtlebot_control/keyboard_control.py -> /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control\n'}
+[1.701836] (turtlebot_control) StdoutLine: {'line': b'copying turtlebot_control/move_to_goal.py -> /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control\n'}
+[1.702295] (turtlebot_control) StdoutLine: {'line': b'copying turtlebot_control/__init__.py -> /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control\n'}
+[1.702655] (turtlebot_control) StdoutLine: {'line': b'copying turtlebot_control/constant_velocity.py -> /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control\n'}
+[1.702900] (turtlebot_control) StdoutLine: {'line': b'copying turtlebot_control/obstacle_avoidance.py -> /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control\n'}
+[1.703132] (turtlebot_control) StdoutLine: {'line': b'running install\n'}
+[1.703363] (turtlebot_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.704249] (turtlebot_control) StdoutLine: {'line': b'creating /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control\n'}
+[1.704603] (turtlebot_control) StdoutLine: {'line': b'copying /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control/keyboard_control.py -> /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control\n'}
+[1.705080] (turtlebot_control) StdoutLine: {'line': b'copying /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control/move_to_goal.py -> /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control\n'}
+[1.705538] (turtlebot_control) StdoutLine: {'line': b'copying /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control/__init__.py -> /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control\n'}
+[1.705794] (turtlebot_control) StdoutLine: {'line': b'copying /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control/constant_velocity.py -> /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control\n'}
+[1.706017] (turtlebot_control) StdoutLine: {'line': b'copying /home/roushan/ros2_ws/build/turtlebot_control/build/lib/turtlebot_control/obstacle_avoidance.py -> /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control\n'}
+[1.706720] (turtlebot_control) StdoutLine: {'line': b'byte-compiling /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control/keyboard_control.py to keyboard_control.cpython-310.pyc\n'}
+[1.708142] (turtlebot_control) StdoutLine: {'line': b'byte-compiling /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control/move_to_goal.py to move_to_goal.cpython-310.pyc\n'}
+[1.709042] (turtlebot_control) StdoutLine: {'line': b'byte-compiling /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control/__init__.py to __init__.cpython-310.pyc\n'}
+[1.709721] (turtlebot_control) StdoutLine: {'line': b'byte-compiling /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control/constant_velocity.py to constant_velocity.cpython-310.pyc\n'}
+[1.710164] (turtlebot_control) StdoutLine: {'line': b'byte-compiling /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc\n'}
+[1.710984] (turtlebot_control) StdoutLine: {'line': b'running install_data\n'}
+[1.711391] (turtlebot_control) StdoutLine: {'line': b'creating /home/roushan/ros2_ws/install/turtlebot_control/share/ament_index\n'}
+[1.711773] (turtlebot_control) StdoutLine: {'line': b'creating /home/roushan/ros2_ws/install/turtlebot_control/share/ament_index/resource_index\n'}
+[1.712160] (turtlebot_control) StdoutLine: {'line': b'creating /home/roushan/ros2_ws/install/turtlebot_control/share/ament_index/resource_index/packages\n'}
+[1.712436] (turtlebot_control) StdoutLine: {'line': b'copying resource/turtlebot_control -> /home/roushan/ros2_ws/install/turtlebot_control/share/ament_index/resource_index/packages\n'}
+[1.712851] (turtlebot_control) StdoutLine: {'line': b'copying package.xml -> /home/roushan/ros2_ws/install/turtlebot_control/share/turtlebot_control\n'}
+[1.713294] (turtlebot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.715066] (-) TimerEvent: {}
+[1.716381] (turtlebot_control) StdoutLine: {'line': b'Copying ../../build/turtlebot_control/turtlebot_control.egg-info to /home/roushan/ros2_ws/install/turtlebot_control/lib/python3.10/site-packages/turtlebot_control-0.0.0-py3.10.egg-info\n'}
+[1.718501] (turtlebot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.759607] (turtlebot_control) StdoutLine: {'line': b'Installing constant_velocity script to /home/roushan/ros2_ws/install/turtlebot_control/lib/turtlebot_control\n'}
+[1.760519] (turtlebot_control) StdoutLine: {'line': b'Installing keyboard_control script to /home/roushan/ros2_ws/install/turtlebot_control/lib/turtlebot_control\n'}
+[1.760988] (turtlebot_control) StdoutLine: {'line': b'Installing move_to_goal script to /home/roushan/ros2_ws/install/turtlebot_control/lib/turtlebot_control\n'}
+[1.761351] (turtlebot_control) StdoutLine: {'line': b'Installing obstacle_avoidance script to /home/roushan/ros2_ws/install/turtlebot_control/lib/turtlebot_control\n'}
+[1.761736] (turtlebot_control) StdoutLine: {'line': b"writing list of installed files to '/home/roushan/ros2_ws/build/turtlebot_control/install.log'\n"}
+[1.815303] (-) TimerEvent: {}
+[1.824665] (turtlebot_control) CommandEnded: {'returncode': 0}
+[1.856145] (turtlebot_control) JobEnded: {'identifier': 'turtlebot_control', 'rc': 0}
+[1.857361] (-) EventReactorShutdown: {}
